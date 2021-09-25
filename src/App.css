@@ -2,12 +2,11 @@
 
 .main{
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: 100vh;
   background-color: #212121;
   color: whitesmoke;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 .main-header{
@@ -18,4 +17,11 @@
   color: whitesmoke !important;
   font-family: 'Montserrat', sans-serif;
   font-size: 12px !important;
+}
+
+.nav-bar {
+  display: flex;
+    width: 30vw;
+    justify-content: space-around;
+    font-size: 20px;
 }
